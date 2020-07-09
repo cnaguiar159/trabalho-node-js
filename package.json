@@ -1,0 +1,28 @@
+{
+  "name": "trabalho-node-js",
+  "version": "1.0.0",
+  "description": "***Trabalho Nodejs***  - **Como rodar a aplicação**    -**Abra o terminal na raiz da aplicação**    `npm install`    `npm start`",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
